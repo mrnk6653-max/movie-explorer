@@ -12,7 +12,7 @@ function Home({
   const [movies, setMovies] = useState([]);
   const [popularMovies, setPopularMovies] = useState([]);
 
-  const [searchQuery, setSearchQuery] = useState("Avengers");
+  const [searchQuery, setSearchQuery] = useState("");
 
   const [loading, setLoading] = useState(false);
   const [popularLoading, setPopularLoading] = useState(true);
